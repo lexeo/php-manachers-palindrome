@@ -1,0 +1,27 @@
+{
+    "name": "lexeo/php-manachers-palindrome",
+    "type": "project",
+    "description": "PHP implementation of the Manacher's algorithm (finding longest palindromic substring)",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "authors": [
+        {
+            "name": "Alexey Grishatkin",
+            "email": "lexeodev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/func.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
